@@ -67,7 +67,11 @@ struct ContentView: View {
     }
     
     private func deleteFood(offsets: IndexSet)  {
-        
+        withAnimation {
+            offsets.map {food[$0]}.forEach(managedObjContext.delete)
+            
+            DataController().save(context: managedObjContext)
+        }
     }
 }
 
