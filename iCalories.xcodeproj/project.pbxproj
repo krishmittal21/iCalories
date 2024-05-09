@@ -55,6 +55,7 @@
 		CC5E0E8A2BECD229003CEB3E /* iCalories */ = {
 			isa = PBXGroup;
 			children = (
+				CC5E0E9F2BED02C1003CEB3E /* Views */,
 				CC5E0E992BECF970003CEB3E /* DataModel */,
 				CC5E0E8B2BECD229003CEB3E /* iCaloriesApp.swift */,
 				CC5E0E8D2BECD229003CEB3E /* ContentView.swift */,
@@ -79,6 +80,13 @@
 				CC5E0E9D2BECFA15003CEB3E /* DataController.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CC5E0E9F2BED02C1003CEB3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
