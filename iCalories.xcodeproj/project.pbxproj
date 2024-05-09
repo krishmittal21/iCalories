@@ -14,6 +14,7 @@
 		CC5E0E9C2BECF983003CEB3E /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC5E0E9A2BECF983003CEB3E /* FoodModel.xcdatamodeld */; };
 		CC5E0E9E2BECFA15003CEB3E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E0E9D2BECFA15003CEB3E /* DataController.swift */; };
 		CC5E0EA12BED02E8003CEB3E /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E0EA02BED02E8003CEB3E /* AddFoodView.swift */; };
+		CC5E0EA52BED03F6003CEB3E /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5E0EA42BED03F6003CEB3E /* TimeFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CC5E0E9B2BECF983003CEB3E /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		CC5E0E9D2BECFA15003CEB3E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		CC5E0EA02BED02E8003CEB3E /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		CC5E0EA42BED03F6003CEB3E /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		CC5E0E8A2BECD229003CEB3E /* iCalories */ = {
 			isa = PBXGroup;
 			children = (
+				CC5E0EA32BED03EA003CEB3E /* Helpers */,
 				CC5E0E8B2BECD229003CEB3E /* iCaloriesApp.swift */,
 				CC5E0E9F2BED02C1003CEB3E /* Views */,
 				CC5E0E992BECF970003CEB3E /* DataModel */,
@@ -90,6 +93,14 @@
 				CC5E0EA02BED02E8003CEB3E /* AddFoodView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CC5E0EA32BED03EA003CEB3E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E0EA42BED03F6003CEB3E /* TimeFormatting.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				CC5E0E9E2BECFA15003CEB3E /* DataController.swift in Sources */,
 				CC5E0E8C2BECD229003CEB3E /* iCaloriesApp.swift in Sources */,
 				CC5E0E9C2BECF983003CEB3E /* FoodModel.xcdatamodeld in Sources */,
+				CC5E0EA52BED03F6003CEB3E /* TimeFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
