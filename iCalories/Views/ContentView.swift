@@ -63,7 +63,13 @@ struct ContentView: View {
     }
     
     private func totalCaloriesToday() -> Double {
-        return 0.0
+        var caloriesToday: Double = 0
+        for item in food {
+            if Calendar.current.isDateInToday(item.date!) {
+                caloriesToday += item.calories
+            }
+        }
+        return caloriesToday
     }
     
     private func deleteFood(offsets: IndexSet)  {
